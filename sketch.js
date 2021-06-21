@@ -68,11 +68,11 @@ function draw() {
   spawnMissiles();
   
   if(MisG.isTouching(basket)){
+    explosion.play();
     gameState = END;
     eggGrp.destroyEach();
     GeggGrp.destroyEach();
     MisG.destroyEach();
-    explosion.play();
   }
 setTimeout(() =>{
   gameState = END;
