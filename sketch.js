@@ -119,7 +119,7 @@ setTimeout(() =>{
     gameOver.visible = true;
     eggGrp.setVelocityYEach(0);
     GeggGrp.setVelocityYEach(0);
-    if(score >= 26){// increase it
+    if(score >= 22){// increase it
       gameOver.addImage("wins", winImg);
     } else{
       gameOver.addImage("lose", loseImg);
